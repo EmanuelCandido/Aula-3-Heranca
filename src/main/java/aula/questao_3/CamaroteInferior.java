@@ -19,6 +19,11 @@ public class CamaroteInferior extends VIP {
         this.local = local;
     }
     
-    
+    @Override
+    public double imprimeValor(){
+        System.out.println("Valor do ingresso VIP no camarote inferior: "+ getValor());
+        return getValor();
+        
+    }
     
 }

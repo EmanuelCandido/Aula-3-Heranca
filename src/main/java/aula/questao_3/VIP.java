@@ -20,7 +20,7 @@ public class VIP extends Ingresso {
     
     @Override
     public double imprimeValor(){
-        System.out.println("Valor do ingresso VIP; "+ getValor());
+        System.out.println("Valor do ingresso VIP: "+ getValor());
         return super.imprimeValor();
         
     }

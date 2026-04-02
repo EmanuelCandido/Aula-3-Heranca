@@ -1,3 +1,5 @@
+package aula.questao_3;
+
 
 import aula.questao_3.VIP;
 
@@ -26,8 +28,8 @@ public class CamaroteSuperior extends VIP {
     
     @Override
     public double imprimeValor(){
-        System.out.println("Valor do ingresso VIP no camarote superior; "+ getValor());
-        return super.imprimeValor();
+        System.out.println("Valor do ingresso VIP no camarote superior: "+ getValor());
+        return getValor();
         
     }
 }
