@@ -6,7 +6,7 @@ public class CamaroteInferior extends VIP {
     
     private String local;
 
-    public CamaroteInferior(String local, double valor) {
+    public CamaroteInferior(double valor,String local) {
         super(valor);
         this.local = local;
     }
